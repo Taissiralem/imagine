@@ -6,7 +6,6 @@ function App() {
   const [mutate] = useReplicateMutation();
   const [ress, setRess] = useState();
   const [prompt, setPrompt] = useState("");
-  console.log(prompt, "prompt");
 
   async function handleClick(e) {
     e.preventDefault();
